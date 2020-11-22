@@ -30,7 +30,7 @@ public class Main {
 
         System.out.println(appleBox.compare(orangeBox));
 
-        Box appleBox2 = appleBox.pouring(new Box<>());
+        //Box appleBox2 = appleBox.pouring(new Box<>());
 
         orangeBox.addFruitToTheBox(new Orange());
         System.out.println(orangeBox.getBox());
